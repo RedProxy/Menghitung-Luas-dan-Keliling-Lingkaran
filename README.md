@@ -17,7 +17,7 @@ Phi merupakan nilai konstanta di matematika sementara jari-jari merupakan jarak 
 
 ![IMG 2](screenshoot/ss2.png)
 
-#### Program Menghitung Luas dan Keliling Lingkaran
+### Program Menghitung Luas dan Keliling Lingkaran
 
 ```bash
 phi = 3.14
@@ -35,7 +35,7 @@ print ("Hasil Luas Lingkaran \t\t= ",format(luas,'.2f'))
 print ("Hasil Keliling Lingkaran\t= ",format(keliling,'.2f')
 ```
 
-##### Penjelasan
+### Penjelasan
 
 Selanjutnya kita memerlukan nilai jari-jari (r) yang nantinya akan di masukan oleh pengguna pada layar console. Kita menggunakan fungsi input() yang nilainya di konversi ke tipe data float (bilangan riil). Ingat bahwa fungsi input() akan menganggap semua nilai inputan bertipe string, sehingga kita perlu melakukan konversi ke tipe yang diinginkan.
 
@@ -45,8 +45,8 @@ Selanjutnya kita tampilkan hasilnya dengan fungsi print(). sintak \t merupakan k
 
 Jika dilihat hasil luas dan keliling lingkaran mempunyai angka pecahan yang cukup banyak, untuk mengambil 2 angka pecahan saja kita pakai fungsi format() seperti gambar di atas.
 
-###### Output
+### Output
 
 [IMG 3](screenshoot/ss3.png)
 
-###### TERIMA KASIH
+### TERIMA KASIH
