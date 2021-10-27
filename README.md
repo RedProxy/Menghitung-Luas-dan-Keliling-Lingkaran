@@ -11,7 +11,7 @@ Keliling = 2 x π × r
 - Nilai phi yang di gunakan adalah 3.14
 - r merupakan jari-jari lingkaran
 
-Phi merupakan nilai konstanta di matematika sementara jari-jari merupakan jarak antara titik pusat dengan tepi lingkaran. Sebetulnya ada rumus lain untuk menghitung keliling lingkaran yaitu dengan menggunakan diameter, tapi pada kasus ini kita cukup menggunakan jari jari lingkaran saja.
+Phi merupakan nilai konstanta dalam matematika yang merupakan perbandingan keliling lingkaran dengan diameternya. phi juga memiliki nilai 3,14 atau 22/7. namun program ini saya buat menggunakan nilai 3,14. Sementara jari-jari merupakan jarak antara titik pusat dengan tepi lingkaran. Sebetulnya ada rumus lain untuk menghitung keliling lingkaran yaitu dengan menggunakan diameter, tapi pada kasus ini kita cukup menggunakan jari jari lingkaran saja.
 
 ### Flowchart Menghitung Luas dan Keliling Lingkaran
 
@@ -20,19 +20,20 @@ Phi merupakan nilai konstanta di matematika sementara jari-jari merupakan jarak 
 ### Program Menghitung Luas dan Keliling Lingkaran
 
 ```bash
+print("Program Menghitung Luas dan Keliling Lingkaran")
+print("==============================================")
+r = float(input("Masukan Jari-Jari Lingkaran  : "))
+
 phi = 3.14
-// Input
-r = float(input("Masukan jari-jari lingkaran : "))
-// Rumus
-luas = phi*(r*r)
-keliling = 2*phi*r
-// Output
+luas = phi*r*r
+kel = 2*phi*r
+
 print ()
 print ("Rumus Luas Lingkarannya \t=",phi,"x",r,"x",r,)
 print ("Rumus Keliling Lingkaran \t=",2,"x",phi,"x",r,)
 print ()
-print ("Hasil Luas Lingkaran \t\t= ",format(luas,'.2f'))
-print ("Hasil Keliling Lingkaran\t= ",format(keliling,'.2f')
+print ("Hasil Luas Lingkaran :",format(luas,'.2f'))
+print ("Hasil Keliling Lingkaran :",format(kel,'.2f'))
 ```
 
 ### Penjelasan
