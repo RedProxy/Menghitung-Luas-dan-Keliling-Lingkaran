@@ -47,6 +47,6 @@ Jika dilihat hasil luas dan keliling lingkaran mempunyai angka pecahan yang cuku
 
 ### Output
 
-[IMG 3](screenshoot/ss3.png)
+![IMG 3](screenshoot/ss3.png)
 
 ### TERIMA KASIH
