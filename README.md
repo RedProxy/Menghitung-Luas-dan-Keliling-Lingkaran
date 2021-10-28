@@ -17,6 +17,17 @@ Phi merupakan nilai konstanta dalam matematika yang merupakan perbandingan kelil
 
 ![IMG 2](screenshoot/ss2.png)
 
+![IMG 4](screenshoot/ss4.png)
+
+Selain itu kita menggunakan simbol arus (Flow Direction Symbol) untuk menghubungkan antar simbol satu dengan simbol lainnya, simbol arus di gambarkan seperti anak panah sebagai petunjuk arah arus dari proses yang berjalan.
+
+### Penggunaan Simbol Flowchart
+- Proses mulai dan selesai kita menggunakan simbol terminal sebagai tanda awal (start) dan akhir (End) pada proses tersebut.
+- Untuk inisialisasi variabel kita gunakan simbol proses, karena menunjukan kegiatan yang dilakukan oleh komputer.
+- Untuk memasukan nilai jari-jari (r) kita menggunakan simbol input karena nilai tersebut akan dimasukan oleh user.
+- Pendefinisian rumus luas lingkaran menggunakan simbol proses.
+- Terakhir untuk menampilkan hasil perhitungan luas lingkaran kita menggunakan simbol output.
+
 ### Program Menghitung Luas dan Keliling Lingkaran
 
 ```bash
