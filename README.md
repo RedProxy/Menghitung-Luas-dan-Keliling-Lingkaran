@@ -18,7 +18,7 @@ Phi merupakan nilai konstanta dalam matematika yang merupakan perbandingan kelil
 
 ### Flowchart Menghitung Luas dan Keliling Lingkaran
 
-![IMG 2](screenshoot/ss2.png) ![IMG 4](screenshoot/ss4.png)
+![IMG 2](screenshoot/ss2.png)
 
 ![IMG 4](screenshoot/ss4.png)
 
