@@ -1,6 +1,6 @@
 # Menghitung-Luas-dan-Keliling-Lingkaran
 
-![Gif 1](screenshoot/gif1)
+![Gif 1](screenshoot/gif1.gif)
 
 ## Rumus Luas dan Keliling Lingkaran
 
@@ -50,40 +50,40 @@ write (keliling);
 #### 3 Struktur dasar algoritma pseudocode
 
 1. Judul
-Judul yang dipakai dalam pseudocode adalah judul algoritma yang akan dipakai atau judul yang ingin dibuat oleh penulis. Contohnya jika kamu ingin membuat sebuah program untuk menentukan keliling persegi, maka judul akan ditulis seperti ini:
+   Judul yang dipakai dalam pseudocode adalah judul algoritma yang akan dipakai atau judul yang ingin dibuat oleh penulis. Contohnya jika kamu ingin membuat sebuah program untuk menentukan keliling persegi, maka judul akan ditulis seperti ini:
 
-Program <NamaProgram> maka ditulis,
+        Program <NamaProgram> maka ditulis,
 
-a. Program Menentukan_Keliling_Persegi
-b. Program Menghitung_luas_persegi_panjang
+    a. Program Menentukan_Keliling_Persegi
+    b. Program Menghitung_luas_persegi_panjang
 
 2. Deskripsi
-Bagian ini berisi deklarasi dari keterangan algoritma yang akan dibuat, yaitu keterangan variabel (var) atau konstanta yang digunakan untuk menghitung suatu rumus tertentu. Variabel adalah wadah dari data yang akan digunakan.
+   Bagian ini berisi deklarasi dari keterangan algoritma yang akan dibuat, yaitu keterangan variabel (var) atau konstanta yang digunakan untuk menghitung suatu rumus tertentu. Variabel adalah wadah dari data yang akan digunakan.
 
-Deskripsi <namaVariabel: <tipe_data>; maka ditulis
+        Deskripsi <namaVariabel: <tipe_data>; maka ditulis
 
-a. Deskripsi 
-Var sisi, keliling : integer;
+    a. Deskripsi 
+       Var sisi, keliling : integer;
 
-b. Deskripsi
-var panjang, lebar, luas : integer;
+    b. Deskripsi
+       var panjang, lebar, luas : integer;
 
 3. Implementasi
-Bagian ini berisi proses atau langkah-langkah yang akan dilakukan algoritma atau inti dari algoritma itu sendiri. Maksudnya adalah pengguna harus menuliskan besaran angka pada masing-masing variabel yang akan dihitung dan sebagainya. Contoh penulisannya seperti ini, 
+   Bagian ini berisi proses atau langkah-langkah yang akan dilakukan algoritma atau inti dari algoritma itu sendiri. Maksudnya adalah pengguna harus menuliskan besaran angka pada masing-masing variabel yang akan dihitung dan sebagainya. Contoh penulisannya seperti ini, 
 
-Implementasi (berisi inti dari Algoritma tersebut); maka ditulis
+        Implementasi (berisi inti dari Algoritma tersebut); maka ditulis
 
-a. Implementasi
-    Read(sisi);
-    keliling ← isi*4; 
-    Write (keliling); 
+    a. Implementasi
+       Read(sisi);
+       keliling ← isi*4; 
+       Write (keliling); 
 
-b. Implementasi
-    Read(panjang);
-    Read(lebar);
-    luas ← panjang*lebar;
-    Write (luas);
-    
+    b. Implementasi
+       Read(panjang);
+       Read(lebar);
+       luas ← panjang*lebar;
+       Write (luas);
+
 ### Program Menghitung Luas dan Keliling Lingkaran
 
 ```bash
